@@ -1,0 +1,34 @@
+name: Create Production Release
+
+on:
+  push:
+    # Trigger this workflow whenever you push a tag starting with "v" (e.g., v1.0.0)
+    tags:
+      - 'v*'
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Crucial permission allowing GitHub to create the release page
+
+    steps:
+      # 1. Pull your code into the runner
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. Compress the files into a .zip archive (excluding git files)
+      - name: Zip project files
+        run: |
+          zip -r upsc-syllabus-mapper.zip . -x "*.git*" ".github*"
+
+      # 3. Create the Release page and upload the Zip file
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: upsc-syllabus-mapper.zip
+          name: Release ${{ github.ref_name }}
+          tag_name: ${{ github.ref }}
+          body: "Automated release containing up-to-date UPSC syllabus mapping files."
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
