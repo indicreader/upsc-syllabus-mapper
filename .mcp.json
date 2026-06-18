@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "jetro": {
+      "type": "stdio",
+      "command": "C:\\Users\\vijay\\.jetro\\runtime\\node-win32-x64.exe",
+      "args": [
+        "C:\\Users\\vijay\\.jetro\\mcp-server\\index.js"
+      ],
+      "env": {
+        "JET_WORKSPACE": "d:\\plugs\\google extention\\sylalus tagger",
+        "JET_API_URL": "https://api.jetro.ai",
+        "JET_JWT": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImVlOTA0NmVhZDJlMDUwMDAxMGVkNTA0M2I0ODNkODRiMGM1MmM3YzQiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vamV0cm8tY2RhZWYiLCJhdWQiOiJqZXRyby1jZGFlZiIsImF1dGhfdGltZSI6MTc4MTcxNDQyNiwidXNlcl9pZCI6IngzbXV4UnlOM3hRcU1kRUNncFdSWGlwWVhkYjIiLCJzdWIiOiJ4M211eFJ5TjN4UXFNZEVDZ3BXUlhpcFlYZGIyIiwiaWF0IjoxNzgxNzUxOTc1LCJleHAiOjE3ODE3NTU1NzUsImVtYWlsIjoiaWFtbm9ib2R5YmFiYUBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiZmlyZWJhc2UiOnsiaWRlbnRpdGllcyI6eyJlbWFpbCI6WyJpYW1ub2JvZHliYWJhQGdtYWlsLmNvbSJdfSwic2lnbl9pbl9wcm92aWRlciI6InBhc3N3b3JkIn19.vhr_U6M0TRaTu7KERkcbaSUXxBRU4qXfTK6Am4trf8KW9ykqhUmJwnMH1Ks2b5xsue8G1bFlljB5cKUV2f6zdeXQZVbGNCgO4e_QDcvbpWA7rfPLyTt2RaNHZbutfEYXI6QfUWVlEVCdkZsplTlfnt7GKSwTLN1ZHxUd73W-gEqE4rjXyqZX9bD5CN5X3x65fDolHYXD-AL0_dgOsVwPLpe_hokn5lz6P6scrLsTVN0geZRcd0Y-yqQHSmhAaUucHEbr0GlL_p5Lvb2IB2-6okQo9sI7Fk9FgDNRIuZJqqtyb0UIUTvpMuQcrMFSczS7XKVk1TLoiCc9--_4syY3_A",
+        "PATH": "C:\\Users\\vijay\\.jetro\\runtime;C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.19.10-hotspot\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Calibre2\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\nodejs\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Git\\cmd;C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.19.10-hotspot\\bin;C:\\Program Files (x86)\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\Program Files\\GitHub CLI\\;C:\\Program Files\\Go\\bin;C:\\Users\\vijay\\.pyenv\\pyenv-win\\bin;C:\\Users\\vijay\\.pyenv\\pyenv-win\\shims;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\Calibre2\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\gs\\gs10.06.0\\bin;C:\\Users\\vijay\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\;C:\\Users\\vijay\\AppData\\Local\\Programs\\Python\\Python311\\;C:\\Users\\vijay\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\vijay\\AppData\\Local\\Programs\\Ollama;\"C:\\Program Files\\Tesseract-OCR\";C:\\Users\\vijay\\AppData\\Roaming\\npm;C:\\Users\\vijay\\.local\\bin;C:\\Users\\vijay\\AppData\\Local\\Microsoft\\WinGet\\Links;C:\\Users\\vijay\\AppData\\Local\\Programs\\Antigravity IDE\\bin;C:\\Users\\vijay\\go\\bin;C:\\Users\\vijay\\AppData\\Local\\PowerToys\\DSCModules\\\";C:\\Program Files\\Tesseract-OCR"
+      }
+    }
+  }
+}

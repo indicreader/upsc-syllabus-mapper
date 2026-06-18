@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UPSC Clipper</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="app">
+    <!-- ── Header ──────────────────────────────────────── -->
+    <header class="header">
+      <div class="header-brand">
+        <span class="header-icon">📋</span>
+        <h1>UPSC Clipper</h1>
+      </div>
+      <button id="btn-settings" class="btn-icon" title="Settings">⚙️</button>
+    </header>
+
+    <!-- ── Settings Panel (hidden by default) ──────────── -->
+    <section id="panel-settings" class="panel panel--settings hidden">
+      <label class="field">
+        <span class="field-label">Backend URL</span>
+        <input type="url" id="input-backend-url" placeholder="http://localhost:8000" spellcheck="false">
+      </label>
+      <label class="field">
+        <span class="field-label">App Token</span>
+        <input type="password" id="input-app-token" placeholder="X-App-Local-Token value" spellcheck="false">
+      </label>
+      <label class="field">
+        <span class="field-label">Optional Subject</span>
+        <input type="text" id="input-optional-subject" placeholder="e.g. Geography, Sociology" spellcheck="false">
+      </label>
+      <label class="field">
+        <span class="field-label">Optional Keywords (comma-separated)</span>
+        <input type="text" id="input-optional-keywords" placeholder="e.g. geomorphology, cell, caste" spellcheck="false">
+      </label>
+      <button id="btn-save-settings" class="btn btn--sm">Save Settings</button>
+    </section>
+
+    <!-- ── Mode Indicator ──────────────────────────────── -->
+    <div id="mode-indicator" class="mode-indicator">
+      <span id="mode-icon">📰</span>
+      <span id="mode-text">Full article will be fetched & saved</span>
+    </div>
+
+    <!-- ── Clipped Text ────────────────────────────────── -->
+    <section class="section">
+      <label class="field">
+        <span class="field-label">📝 Clipped Text</span>
+        <textarea id="textarea-clip" rows="5" placeholder="No text highlighted — full article will be saved…"></textarea>
+      </label>
+    </section>
+
+    <!-- ── Auto-detected Tags ──────────────────────────── -->
+    <section class="section">
+      <div class="field-label">🏷️ Syllabus Tags</div>
+      <div id="tags-container" class="tags-container">
+        <span class="tags-empty">No tags detected yet</span>
+      </div>
+      <div class="tag-add-row">
+        <input type="text" id="input-custom-tag" placeholder="Add custom tag…" spellcheck="false">
+        <button id="btn-add-tag" class="btn btn--sm btn--ghost">+ Add</button>
+      </div>
+    </section>
+
+    <!-- ── Notes ───────────────────────────────────────── -->
+    <section class="section">
+      <label class="field">
+        <span class="field-label">📝 Notes</span>
+        <textarea id="textarea-notes" rows="2" placeholder="Optional notes…"></textarea>
+      </label>
+    </section>
+
+    <!-- ── Destination Toggle ──────────────────────────── -->
+    <section class="section">
+      <div class="field-label">📦 Destination</div>
+      <div class="toggle-group" id="toggle-destination">
+        <label class="toggle-option">
+          <input type="radio" name="destination" value="local" checked>
+          <span class="toggle-label">💾 Local DB</span>
+        </label>
+        <label class="toggle-option">
+          <input type="radio" name="destination" value="notion">
+          <span class="toggle-label">📓 Notion</span>
+        </label>
+      </div>
+    </section>
+
+    <!-- ── Paper Target (for Notion routing) ───────────── -->
+    <section class="section">
+      <div class="field-label">📑 Primary Paper</div>
+      <select id="select-paper" class="select-paper">
+        <option value="auto">Auto-detect from tags</option>
+        <option value="GS1">GS1 — Heritage, History, Geography</option>
+        <option value="GS2">GS2 — Polity, Governance, IR</option>
+        <option value="GS3">GS3 — Economy, S&T, Environment</option>
+        <option value="GS4">GS4 — Ethics</option>
+        <option value="Ethics">Ethics (standalone)</option>
+        <option value="Optional" id="option-optional">Optional</option>
+      </select>
+    </section>
+
+    <!-- ── Submit ──────────────────────────────────────── -->
+    <button id="btn-submit" class="btn btn--primary btn--full">
+      <span class="btn-text">✅ Confirm Submit</span>
+      <span class="btn-spinner hidden"></span>
+    </button>
+
+    <!-- ── Status Bar ──────────────────────────────────── -->
+    <div id="status-bar" class="status-bar">
+      <span id="status-text">Ready</span>
+    </div>
+  </div>
+
+  <!-- Load tagger engine first, then popup logic -->
+  <script src="../utils/tagger.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

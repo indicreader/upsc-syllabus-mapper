@@ -1,0 +1,217 @@
+{
+  "D:\\plugs\\google extention\\sylalus tagger\\.cursor\\mcp.json": {
+    "mtime": 1781749762.7862568,
+    "ast_hash": "06b965bb1d3b513fdfaeddd76f94a0c2",
+    "semantic_hash": "06b965bb1d3b513fdfaeddd76f94a0c2"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\.jetro\\canvas-registry.json": {
+    "mtime": 1781714429.0148103,
+    "ast_hash": "29c2977e95d940d3686c3abd36431013",
+    "semantic_hash": "29c2977e95d940d3686c3abd36431013"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\.jetro\\canvases\\research_board_mqiaro0k.json": {
+    "mtime": 1781750740.0774815,
+    "ast_hash": "4e1b90da2f83aef2ee45803961888232",
+    "semantic_hash": "4e1b90da2f83aef2ee45803961888232"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\.jetro\\context.json": {
+    "mtime": 1781750745.7568204,
+    "ast_hash": "57529deeb174f74a7d980c3dd4846157",
+    "semantic_hash": "57529deeb174f74a7d980c3dd4846157"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\.jetro\\lib\\jet\\__init__.py": {
+    "mtime": 1781749758.105214,
+    "ast_hash": "dcb0c386131f2a68491a7bc6a45fcc76",
+    "semantic_hash": "dcb0c386131f2a68491a7bc6a45fcc76"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\.jetro\\lib\\jet\\api.py": {
+    "mtime": 1781749757.793531,
+    "ast_hash": "5fb5b4e2ba83eb164011a2574804a05e",
+    "semantic_hash": "5fb5b4e2ba83eb164011a2574804a05e"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\.jetro\\lib\\jet\\browser.py": {
+    "mtime": 1781749757.9238403,
+    "ast_hash": "9294ecdc2dbc9c33d86976a7bb48e57f",
+    "semantic_hash": "9294ecdc2dbc9c33d86976a7bb48e57f"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\.jetro\\lib\\jet\\connectors.py": {
+    "mtime": 1781749757.836483,
+    "ast_hash": "94d163189b64134a90a4c907f0132ae5",
+    "semantic_hash": "94d163189b64134a90a4c907f0132ae5"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\.jetro\\lib\\jet\\geo.py": {
+    "mtime": 1781749758.0825825,
+    "ast_hash": "eedd93f3efcd811fa7e2b56392027759",
+    "semantic_hash": "eedd93f3efcd811fa7e2b56392027759"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\.jetro\\lib\\jet\\market.py": {
+    "mtime": 1781749757.7282333,
+    "ast_hash": "3de607c1c5f6cc1d728ad0f9bb35b0ed",
+    "semantic_hash": "3de607c1c5f6cc1d728ad0f9bb35b0ed"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\.jetro\\lib\\jet\\mf.py": {
+    "mtime": 1781749757.7524767,
+    "ast_hash": "2ae187932b92e2e41d1f4de4b478f429",
+    "semantic_hash": "2ae187932b92e2e41d1f4de4b478f429"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\.jetro\\mcp-config.json": {
+    "mtime": 1781749762.759614,
+    "ast_hash": "f34b45106ceb26836b048bcff93a623e",
+    "semantic_hash": "f34b45106ceb26836b048bcff93a623e"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\.mcp.json": {
+    "mtime": 1781749762.7284431,
+    "ast_hash": "06b965bb1d3b513fdfaeddd76f94a0c2",
+    "semantic_hash": "06b965bb1d3b513fdfaeddd76f94a0c2"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\.vscode\\settings.json": {
+    "mtime": 1781749328.3282454,
+    "ast_hash": "3d45cb304b49fb2bdf2da61518a51aa9",
+    "semantic_hash": "3d45cb304b49fb2bdf2da61518a51aa9"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\backend\\auth.py": {
+    "mtime": 1781713112.670146,
+    "ast_hash": "b9cc57793c1f03525c0650797babdeba",
+    "semantic_hash": "b9cc57793c1f03525c0650797babdeba"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\backend\\config.py": {
+    "mtime": 1781713220.1342957,
+    "ast_hash": "81ee25358a2b9ddf5534f1fd593fc98a",
+    "semantic_hash": "81ee25358a2b9ddf5534f1fd593fc98a"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\backend\\database.py": {
+    "mtime": 1781713344.4453757,
+    "ast_hash": "e4e241d1e77675d14135c441415281b5",
+    "semantic_hash": "e4e241d1e77675d14135c441415281b5"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\backend\\main.py": {
+    "mtime": 1781713396.7858808,
+    "ast_hash": "496b91b7b740f6087ab1fe8760a1f086",
+    "semantic_hash": "496b91b7b740f6087ab1fe8760a1f086"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\backend\\models.py": {
+    "mtime": 1781748709.4325936,
+    "ast_hash": "dd1189abba85d3b2664c418e5bbe642a",
+    "semantic_hash": "dd1189abba85d3b2664c418e5bbe642a"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\backend\\notion_service.py": {
+    "mtime": 1781713369.243772,
+    "ast_hash": "3741fd4fbcdd9aea8ad769d192816f22",
+    "semantic_hash": "3741fd4fbcdd9aea8ad769d192816f22"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\backend\\parser.py": {
+    "mtime": 1781713386.8688824,
+    "ast_hash": "379b1a4c26fe83c780838c9a506496b6",
+    "semantic_hash": "379b1a4c26fe83c780838c9a506496b6"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\backend\\routers\\__init__.py": {
+    "mtime": 1781713411.5344074,
+    "ast_hash": "0a9db90bcbc0b470c1c11eb117642944",
+    "semantic_hash": "0a9db90bcbc0b470c1c11eb117642944"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\backend\\routers\\clipper.py": {
+    "mtime": 1781748733.1899755,
+    "ast_hash": "592cde0df1464b52c4c8d0facb1bfc8c",
+    "semantic_hash": "592cde0df1464b52c4c8d0facb1bfc8c"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\extension\\background.js": {
+    "mtime": 1781749146.6881933,
+    "ast_hash": "e455b669ee9c4f38f9ed166bb09970cf",
+    "semantic_hash": "e455b669ee9c4f38f9ed166bb09970cf"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\extension\\content.js": {
+    "mtime": 1781713095.7554314,
+    "ast_hash": "bbb6e7931708904b2160a0f58c966b99",
+    "semantic_hash": "bbb6e7931708904b2160a0f58c966b99"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\extension\\data\\syllabus_map.json": {
+    "mtime": 1781713043.011593,
+    "ast_hash": "ec5a7dbb505fb6ca50be7ae9be8addc3",
+    "semantic_hash": "ec5a7dbb505fb6ca50be7ae9be8addc3"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\extension\\manifest.json": {
+    "mtime": 1781715705.027206,
+    "ast_hash": "2001f9e025b7fdd03f103433832d8678",
+    "semantic_hash": "2001f9e025b7fdd03f103433832d8678"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\extension\\popup\\popup.js": {
+    "mtime": 1781748683.3919625,
+    "ast_hash": "76e538913210c44acbc5667ce38a65ac",
+    "semantic_hash": "76e538913210c44acbc5667ce38a65ac"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\extension\\utils\\tagger.js": {
+    "mtime": 1781713079.3263526,
+    "ast_hash": "9e5e4df416202b2de477cc84a6ada3d3",
+    "semantic_hash": "9e5e4df416202b2de477cc84a6ada3d3"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\.agents\\rules\\agent.md": {
+    "mtime": 1781749765.2558913,
+    "ast_hash": "270db514cbdb0baa3624a8eb33f692ba",
+    "semantic_hash": "270db514cbdb0baa3624a8eb33f692ba"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\.github\\copilot-instructions.md": {
+    "mtime": 1781749765.2640321,
+    "ast_hash": "e17f6f89ea24db8ca2fcb4d73c1e2bc8",
+    "semantic_hash": "e17f6f89ea24db8ca2fcb4d73c1e2bc8"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\.jetro\\docs\\reference.md": {
+    "mtime": 1781749765.3693361,
+    "ast_hash": "e41c811237c4aeb71c908e055bc5ac99",
+    "semantic_hash": "e41c811237c4aeb71c908e055bc5ac99"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\AGENT.md": {
+    "mtime": 1781749765.2783933,
+    "ast_hash": "e17f6f89ea24db8ca2fcb4d73c1e2bc8",
+    "semantic_hash": "e17f6f89ea24db8ca2fcb4d73c1e2bc8"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\CLAUDE.md": {
+    "mtime": 1781750243.1032186,
+    "ast_hash": "9b78ad891e05b82085dffab08700c77b",
+    "semantic_hash": "9b78ad891e05b82085dffab08700c77b"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\README.md": {
+    "mtime": 1781713461.804808,
+    "ast_hash": "55bdc77eabd0ff7eacce0516657bcd9f",
+    "semantic_hash": "55bdc77eabd0ff7eacce0516657bcd9f"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\backend\\requirements.txt": {
+    "mtime": 1781748741.493961,
+    "ast_hash": "14a23986f239c84ed7c8907ff8af0b42",
+    "semantic_hash": "14a23986f239c84ed7c8907ff8af0b42"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\extension\\popup\\popup.html": {
+    "mtime": 1781714195.6318414,
+    "ast_hash": "38b21380131522b90fb167afe55cfa13",
+    "semantic_hash": "38b21380131522b90fb167afe55cfa13"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\extension\\icons\\icon128.png": {
+    "mtime": 1781713640.9725416,
+    "ast_hash": "1a124c9dafe5b8f1da47211496f72597",
+    "semantic_hash": "1a124c9dafe5b8f1da47211496f72597"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\extension\\icons\\icon16.png": {
+    "mtime": 1781713462.9505756,
+    "ast_hash": "f14f8920da9851a2316f09d07cf59b36",
+    "semantic_hash": "f14f8920da9851a2316f09d07cf59b36"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\extension\\icons\\icon48.png": {
+    "mtime": 1781713561.7955441,
+    "ast_hash": "3dc91f03ce86971f66c13c44ea2b3901",
+    "semantic_hash": "3dc91f03ce86971f66c13c44ea2b3901"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\icon 128.png": {
+    "mtime": 1781713640.9725416,
+    "ast_hash": "1a124c9dafe5b8f1da47211496f72597",
+    "semantic_hash": "1a124c9dafe5b8f1da47211496f72597"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\icon 16.png": {
+    "mtime": 1781713462.9505756,
+    "ast_hash": "f14f8920da9851a2316f09d07cf59b36",
+    "semantic_hash": "f14f8920da9851a2316f09d07cf59b36"
+  },
+  "D:\\plugs\\google extention\\sylalus tagger\\icon 48.png": {
+    "mtime": 1781713561.7955441,
+    "ast_hash": "3dc91f03ce86971f66c13c44ea2b3901",
+    "semantic_hash": "3dc91f03ce86971f66c13c44ea2b3901"
+  }
+}
